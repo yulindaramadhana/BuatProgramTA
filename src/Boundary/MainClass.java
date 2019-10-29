@@ -51,7 +51,7 @@ public class MainClass {
         String join2 = String.join(" ", syr.getTermDocArray());
         System.out.println("jon2=" + join2);
         
-        //store and print kamus sinonim
+        //store kamus by line
         Kamus reads = new Kamus();
         List<String> list_kamus = reads.SYR();
               
